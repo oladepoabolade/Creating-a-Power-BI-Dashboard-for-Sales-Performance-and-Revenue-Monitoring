@@ -1,16 +1,16 @@
 # Portfolio Project: Sales Performance and Revenue Monitoring Report
 A sales and order performance dashboard that tracks revenue, order volume, top-selling products, customer trends, and fulfillment efficiency, giving real-time insights that help businesses spot opportunities, fix bottlenecks, and make data-driven decisions.
 
-### 1.0 Introduction
+#### Introduction
 This report presents an analytical overview of the company’s sales and order performance, based on data collected over the review period. Using an interactive dashboard, the analysis evaluates the KPI which are Total revenue, Total order, Total quantity, Total profit, Total loss. Showing customer purchasing behaviour across each of the sub categories with different payment mode visualiazing their profit and loss status. The goal is to provide a clear understanding of the business commercial health and highlight opportunities for strategic improvement.
 
-### 2.0 Method / Workflow
+#### Method / Workflow
 The analytical process followed a reproducible work flow structure like:
-a.	Data collection
+#### a.	Data collection
 The dataset used for this project was provided by my coach to help me practice and understand how power BI works as a beginner. The purpose of giving me this dataset was to guide me through my first real data analysis project, help me learn how to analyze business data, create insights, and build dashboards.
 The dataset contains business sales information such as Sales amount, Profit, Revenue, Product categories, Quantity of orders and Payment modes. It was used to analyze the company’s performance and understand different business trends.
 
-b.	Data Cleaning & Transformation
+#### b.	Data Cleaning & Transformation
 
 <img width="1000" height="671" alt="image" src="https://github.com/user-attachments/assets/1540680b-186e-4a82-99c7-f14737e4a823" />
 
@@ -18,7 +18,7 @@ After collecting the dataset I proceeded to the cleaning stage. This process inv
 •	Checking the data for errors, empty spaces, duplicates, and incorrect values to make the dataset clean and ready for analysis.
 The cleaning process can be done in both Excel and power BI using power query. In this project, power query was used to transform and organized the data properly before creating the dashboard.
 
-c.	Dashboard Design
+#### c.	Dashboard Design
 
 <img width="1000" height="547" alt="image" src="https://github.com/user-attachments/assets/bbccdb64-4f79-4f24-acf4-683dafee56b3" />
 
@@ -40,7 +40,7 @@ The purpose of these visuals was to help identify which categories are performin
 d.	Analysis and Interpretation
 Insights were derived using the visuals to elevate business performance.
 
-### 3.0 Findings / Insights
+#### Findings / Insights
 •	Revenue shows a higher percentage increase across all category
 •	Peak sales occurs in the clothing category leading to huge profit
 •	Low peforming product shows in the Electronics category leading to loss
@@ -48,7 +48,7 @@ Insights were derived using the visuals to elevate business performance.
 •	Top selling product under the sub category is the Hankerchief which contributed significantly to the profit status
 •	Other sub-categories like Electronic games, Furnishing, Kurti, Leggings, and skirt consistently showed low performance, indicating high unit cost, weak demand and great loss.
 
-### 4.0 Recommendations
+#### Recommendations
 Based on the insights generated and analysis displayed on the dashboard, the following actions are recommended for the business:
 a.	Boost high-yield products
 Increase stock, marketing, or bundle offers for top performing category which is clothing.
@@ -60,7 +60,7 @@ d.	Strengthen Customer Retention
 Implement targeted loyalty programmes in the clothing category since it drive higher value.
 
 
-### Conclusion
+#### Conclusion
 
 This project marks the beginning of my journey into data analysis and dashboard development using power BI. Through this project, I was able to learn how to clean data, design a dashboard, create visualizations, and turn raw business data into meaningful insights.
 The dashboard helped me understand how businesses can track sales, revenue, profit, losses, customers orders, and payment trends in a simple and interactive way. It also showed me the importance of data visualization in helping businesses make better decisions.
