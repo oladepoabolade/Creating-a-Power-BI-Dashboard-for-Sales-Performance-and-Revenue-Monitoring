@@ -1,67 +1,164 @@
 #### Sales Performance and Revenue Monitoring Report
 A sales and order performance dashboard that tracks revenue, order volume, top-selling products, customer trends, and fulfillment efficiency, giving real-time insights that help businesses spot opportunities, fix bottlenecks, and make data-driven decisions.
 
-#### Introduction
-This report presents an analytical overview of the company’s sales and order performance, based on data collected over the review period. Using an interactive dashboard, the analysis evaluates the KPI which are Total revenue, Total order, Total quantity, Total profit, Total loss. Showing customer purchasing behaviour across each of the sub categories with different payment mode visualiazing their profit and loss status. The goal is to provide a clear understanding of the business commercial health and highlight opportunities for strategic improvement.
+#### Overview
 
-#### Method / Workflow
-The analytical process followed a reproducible work flow structure like:
-#### a.	Data collection
-The dataset used for this project was provided by my coach to help me practice and understand how power BI works as a beginner. The purpose of giving me this dataset was to guide me through my first real data analysis project, help me learn how to analyze business data, create insights, and build dashboards.
-The dataset contains business sales information such as Sales amount, Profit, Revenue, Product categories, Quantity of orders and Payment modes. It was used to analyze the company’s performance and understand different business trends.
+This project presents an interactive Sales Performance & Revenue Monitoring Dashboard developed in Power BI to analyze business performance across revenue, profit, customer purchasing behavior, product categories, and payment trends.
 
-#### b.	Data Cleaning & Transformation
+The dashboard provides actionable insights that support business growth, operational efficiency, and data-driven decision-making by identifying high-performing products, loss-making categories, and customer payment preferences.
+
+
+#### Project Objectives
+
+The dashboard was designed to answer critical business questions such as:
+
+What is the total revenue generated?
+Which product categories contribute the highest profit?
+Which categories are operating at a loss?
+What are the most frequently used payment methods?
+Which products and sub-categories perform best?
+How do order quantities vary across categories?
+
+The primary objective was to transform raw sales data into meaningful business insights that can support strategic decision-making.
+
+
+#### Tools & Technologies
+Power BI — Data visualization and dashboard development
+Power Query — Data cleaning and transformation
+Microsoft Excel — Initial data review and validation
+PowerPoint — Dashboard wireframing and planning
+
+#### Dataset Information
+
+The dataset used for this project was provided during my data analytics training as part of a practical learning exercise focused on business intelligence and reporting.
+
+The dataset contains:
+
+Sales Amount
+Revenue
+Profit & Loss
+Product Categories
+Order Quantities
+Payment Modes
+
+This project helped strengthen my understanding of data analysis workflows, dashboard development, and business reporting using real-world business data.
+
+#LearningByDoing #DataAnalyticsJourney #BusinessReporting
+
+#### Project Workflow
+### Data Collection
+
+The dataset was first reviewed to understand the business structure, reporting requirements, and available KPIs before analysis began.                         
 
 <img width="1000" height="671" alt="image" src="https://github.com/user-attachments/assets/1540680b-186e-4a82-99c7-f14737e4a823" />
 
-After collecting the dataset I proceeded to the cleaning stage. This process involves
-•	Checking the data for errors, empty spaces, duplicates, and incorrect values to make the dataset clean and ready for analysis.
-The cleaning process can be done in both Excel and power BI using power query. In this project, power query was used to transform and organized the data properly before creating the dashboard.
+The dataset was cleaned and transformed using Power Query in Power BI.
 
-#### c.	Dashboard Design
+### Key Cleaning Processes:
+Removing duplicates
+Handling missing values
+Correcting inconsistent entries
+Standardizing data formats
+Structuring data for analysis and reporting
 
-<img width="1000" height="547" alt="image" src="https://github.com/user-attachments/assets/bbccdb64-4f79-4f24-acf4-683dafee56b3" />
+This process ensured the dataset was accurate, reliable, and ready for visualization.
 
-After creating the wireframe in PowerPoint, the next step was designing the actual interactive dashboard using Power BI. The wireframe serves as a guide for arranging the visuals, colors, charts, filters, and KPI cards in a clean and organized way.
 
-<img width="1000" height="543" alt="image" src="https://github.com/user-attachments/assets/46ee9628-8a92-4869-9d79-6aaf04d510a6" />
 
-The dashboard was designed to focus on the main business objective of the project, which includes understanding different key questions such as:
-•	How much profit was generated?
-•	What is the total profit across each of the sub category?
-•	What is the quantity of order across category?
-•	What is the revenue across categories for profit and loss?
-•	What is the total profit across subcategory?
-•	What is the total order by payment mode?
+#### Dashboard Design
 
-To achieve this, different key visualizations were added to display business insights clearly. KPI cards were used at the top dashboard to show important figures such as Total revenue, Total orders, Total quantity, Total profit and Total loss. These cards helps the business quickly understand the overall business performance.
-Charts and graphs were also used to answer important business objectives. Bar charts were used to compare profit across categories, line charts were used to track order quantity across categories and donut charts were used to analyze payment modes. Other visuals were added to compare profit and loss across different business categories.
-The purpose of these visuals was to help identify which categories are performing well, which categories are running at loss, the most used payment modes and areas where the business can improve sales and profitability.
-d.	Analysis and Interpretation
-Insights were derived using the visuals to elevate business performance.
+<img width="1000" height="547" alt="Dashboard Wireframe" src="https://github.com/user-attachments/assets/bbccdb64-4f79-4f24-acf4-683dafee56b3" />                                                                                
 
-#### Findings / Insights
-•	Revenue shows a higher percentage increase across all category
-•	Peak sales occurs in the clothing category leading to huge profit
-•	Low peforming product shows in the Electronics category leading to loss
-•	The COD payment mode was majorly used .
-•	Top selling product under the sub category is the Hankerchief which contributed significantly to the profit status
-•	Other sub-categories like Electronic games, Furnishing, Kurti, Leggings, and skirt consistently showed low performance, indicating high unit cost, weak demand and great loss.
+A dashboard wireframe was first designed in PowerPoint to plan the structure, layout, and visual hierarchy before implementation in Power BI.                   
+                                                                                                                                                             
+<img width="1000" height="543" alt="Power BI Dashboard" src="https://github.com/user-attachments/assets/46ee9628-8a92-4869-9d79-6aaf04d510a6" />
+The final dashboard was developed using interactive visualizations and KPI cards to present business performance insights in a clear and user-friendly format.
+
+### Dashboard Features
+KPI Cards
+Total Revenue
+Total Orders
+Total Quantity
+Total Profit
+Total Loss
+### Visualizations Used
+Bar Charts
+Line Charts
+Donut Charts
+Comparative Category Analysis
+
+These visual elements were designed to simplify complex business data and improve reporting efficiency.
+
+
+
+#### Key Insights
+Revenue showed strong growth across major product categories.
+The Clothing category generated the highest sales and profitability.
+The Electronics category recorded lower performance and contributed significantly to losses.
+Cash on Delivery (COD) emerged as the most frequently used payment method.
+Handkerchiefs ranked as the top-performing sub-category product.
+
+# Sub-categories such as:
+
+Electronic Games
+Furnishing
+Kurti
+Leggings
+Skirt
+
+consistently underperformed, indicating weak demand and lower profitability.
+
+
 
 #### Recommendations
-Based on the insights generated and analysis displayed on the dashboard, the following actions are recommended for the business:
-a.	Boost high-yield products
-Increase stock, marketing, or bundle offers for top performing category which is clothing.
-b.	Address operational bottlenecks
-The business should remove or replace low performing and loss making products across categories.
-Investigate delays in fulfilment and improve marketing in the sales category with low performance, no business should lose money.
-c.	Improve customers experience around the COD payment mode since it appears to have the highest number of orders, the business should also encourage other payment modes
-d.	Strengthen Customer Retention
-Implement targeted loyalty programmes in the clothing category since it drive higher value.
+Increase Focus on High-Performing Products
+
+Expand promotions, inventory, and marketing efforts around profitable categories, especially Clothing.
+
+Reduce Loss-Making Operations
+
+Review underperforming products and optimize product strategy to minimize losses.
+
+Improve Payment Experience
+
+Enhance customer experience around COD while encouraging customers to adopt alternative payment methods.
+
+Strengthen Customer Retention
+
+Introduce customer loyalty and retention strategies within high-performing product categories.
+
 
 
 #### Conclusion
+This project represents an important milestone in my journey into Data Analytics and Business Intelligence using Power BI.
 
-This project marks the beginning of my journey into data analysis and dashboard development using power BI. Through this project, I was able to learn how to clean data, design a dashboard, create visualizations, and turn raw business data into meaningful insights.
-The dashboard helped me understand how businesses can track sales, revenue, profit, losses, customers orders, and payment trends in a simple and interactive way. It also showed me the importance of data visualization in helping businesses make better decisions.
-Working on this project improved my understanding of power BI, data storytelling, and dashboard design, and it has motivated me to continue learning and building more data driven projects.
+Through this project, I gained practical experience in:
+
+Data Cleaning & Transformation
+Dashboard Design
+Data Visualization
+Business Performance Analysis 
+Data Storytelling
+The experience strengthened my ability to transform raw business data into meaningful insights that support informed decision-making and operational improvement.
+
+I look forward to building more analytical projects that solve real business problems using data.
+
+
+                                                                                                                                                                
+##### About Me
+I am an aspiring Data Analyst with a background in Economics and a strong interest in:
+
+Data Visualization
+Business Intelligence
+Data Storytelling
+Business Analytics
+
+Currently developing hands-on projects using:
+
+Power BI
+Excel
+SQL
+
+and continuously improving my analytical and reporting skills through practical learning and real-world business projects.
+
+#DataAnalytics #EconomicsGraduate #PowerBI #SQL #OpenToOpportunities        
